@@ -20,7 +20,7 @@ const log = message => {
 };
 
 client.gif = {
-  kategoriler: [],
+  kategoriler: [], //GİF KATEGORİLERİ, ÖRNEK: ANİME GİF(idsi girilecek), COUPLE GİF(idsi girilecek) vb.
   log: "", //GİF ATINCA MESAJIN GİDECEĞİ LOG KANALI İDSİ
   sunucu: "", //SUNUCU İSMİ /  ÖRNEK: GifAre
   rastgele: {
