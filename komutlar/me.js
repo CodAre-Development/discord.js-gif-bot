@@ -11,7 +11,7 @@ if(db.has(`pp.${kisi.user.id}`)){
   stat.push(`\`${db.fetch(`gif.${kisi.user.id}`)}\` gif`)
 }
 let embed = new Discord.MessageEmbed()
-.setAuthor('Gif World 🔥')
+.setAuthor(client.gif.sunucu+' 🔥')
   .setDescription(stat[0] ? stat.join(', ') + ' paylaşımında bulunmuşsun.\nToplam Paylaşım:' + db.fetch(`sayı.${kisi.user.id}`)||0 : `\`•\` Paylaşımda bulunmamış.`)
   message.channel.send(embed)
 
