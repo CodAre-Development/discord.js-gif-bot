@@ -169,5 +169,5 @@ client.on("userUpdate", async(eski, yeni) => {
     client.channels.cache.get(client.gif.rastgele.GIF).send(new Discord.MessageEmbed().setColor('BLUE').setFooter(`${yeni.tag}`).setImage(avatar));
   };
 });
-console.log('[CODARE] Bot Başladı!')
+console.log('CODARE Bot Başladı!')
 client.login(ayarlar.token).catch(err=> console.error('[HATA] Token Hatalı Lütfen Tokeninizi Değiştirin. Hata yine olursa CodAre sunucumuza gelebilirsiniz. discord.gg/Wytq5PK'));
